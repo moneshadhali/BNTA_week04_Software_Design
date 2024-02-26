@@ -9,7 +9,7 @@ There are three principle design strategies used in software engineering:
 
 
 
-1. What do we mean by coupling and cohesion when discussing structured design?
+####1. What do we mean by coupling and cohesion when discussing structured design?
 
 Structured-design is based on the ‘divide-conquer’ technique. This means that problems are subdivided, further divided into small problems which is solved iteratingly until gradually the higher level problems are solved. Through structured design, a low coupling and high cohesion is achieved (as each problems gets solved individually before loosely connecting modules/ classes). 
 
