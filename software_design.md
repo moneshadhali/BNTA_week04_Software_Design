@@ -9,6 +9,7 @@ There are three principle design strategies used in software engineering:
 
 
 1. What do we mean by coupling and cohesion when discussing structured design?
+
 Structured-design is based on the ‘divide-conquer’ technique. This means that problems are subdivided, further divided into small problems which is solved iteratingly until gradually the higher level problems are solved. Through structured design, a low coupling and high cohesion is achieved (as each problems gets solved individually before loosely connecting modules/ classes). 
 
 Coupling and Cohesion are some of the concept used to define and measure the quality of a software design. Coupling in a software design refer to classes / modules that are connected to other classes or modules through either data, objects and other bindings. Therefore, High coupling in software design indicates that changes in one classes strongly affect the state or usability of the other class. Whereas low coupling, is the opposite therefore, have less effect on its usability.
@@ -21,6 +22,7 @@ Cohesion in software design refer to elements inside a class, working together t
 
 
 2. What is the difference between top-down and bottom-up design? Which best describes a function oriented design?
+   
 - The main difference between them is their focus point. 
 - Top-down approach focuses on solving issues by breaking down problem into smaller parts whilst bottom up approach design focuses on solving small problems until the bigger pictures starts to shape. 
 - Top-down approach involves high level planning and decision making whilst bottom-down approach is mainly focused on executing smaller tasks and slowly developing an understanding into the unknown knowledge. 
@@ -32,11 +34,13 @@ Functional Oriented Design is composed of multiple functions which are viewed as
 
 
 3. In which design methodology would a class diagram be most useful?
+   
 The class diagram is a type of structure diagram that describes the structure of a system by showing its class, attributes, operations and relationships between the objects. A class diagram would be most useful on the object-orientated design methodology as it put emphasis on designing a collection of interacting object with its own data and behaviour. This makes every object oriented project very dynamic and the effective way of blueprinting the structure of the software design is through class diagram. 
 [1](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/)
 
 
 4. What are the four pillars of object oriented programming? Give a single-sentence description of each.
+
 - Abstraction: Only show the necessary detail of the class / design allowing more focus on essential parts.
 - Encapsulation: Data and code enclosed into a unit (data hiding by using private on properties)
 - Inheritance: Passing parent class properties into a child class, whilst child class also retaining its own unique features. 
@@ -46,6 +50,7 @@ The class diagram is a type of structure diagram that describes the structure of
 
 
 5. What is the strategy pattern? How would its implementation differ between a functional and object oriented system?
+   
 Strategy pattern: algorithm / class behaviour getting changed at run time. Its implementation differs as functional system uses higher order function to promote the behavioural change depending on different type of situations whereas object oriented system makes mostly use of interface, classes and polymorphism.
 
 In functional system - a function would take other functions (strategy) as arguments (one high-level function and many strategy = strategy pattern + functional  oriented design).
