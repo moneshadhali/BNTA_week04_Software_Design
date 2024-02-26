@@ -58,7 +58,7 @@ In object oriented system = interface, classes and polymorphism (one context cla
 
 Object-Oriented Design methodology, combined with the Strategy Pattern is best for creating a versatile online payment system that is adaptable across various use cases. This is due to, object oriented programming pillars such as encapsulations which ensures data privacy. In this case study, privacy is a requirement for the system as it deals with payments. Another main reason is polymorphism, which makes the development of different type of payment system very flexible as similar operations behave and is implemented differently without changing the interface. As a result, this makes the system widely applicable. 
 
-##REFERENCES
+REFERENCES
 [^1]:https://www.javatpoint.com/software-engineering-coupling-and-cohesion
 [^2]:https://www.geeksforgeeks.org/software-engineering-coupling-and-cohesion/
 [^3]:https://www.scaler.com/topics/software-engineering/design-strategies-in-software-engineering/
